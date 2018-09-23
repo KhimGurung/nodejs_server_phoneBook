@@ -1,0 +1,28 @@
+{
+  "name": "nodejs_server_phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "express": "^4.16.3",
+    "http": "^0.0.0",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhimGurung/nodejs_server_phoneBook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhimGurung/nodejs_server_phoneBook/issues"
+  },
+  "homepage": "https://github.com/KhimGurung/nodejs_server_phoneBook#readme"
+}

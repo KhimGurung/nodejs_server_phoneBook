@@ -4,10 +4,10 @@ var mysql = require('mysql');
 var con = mysql.createConnection({
   host: 'localhost',
   user: "root",
-  password: "root",
+  // password: "root",
   database: "phonebook",
   port: 3306,
-  socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
+  // socketPath: '/Applications/MAMP/tmp/mysql/mysql.sock'
 });
 
 con.connect(function(err) {
