@@ -6,9 +6,8 @@ const home = require('../controllers/HomeController');
 
 // api links for phonebook applicaiton
 
-// route to get all data of specific region from database. But, I have not implemented getting data of specific region
-// It fetech all the data from database for now
-router.get('/get_specific_region_data', home.getAllData);
+// route to get all data of selected regions from database.
+router.get('/get_selected_region_data', home.getAllData);
 
 // This is for searching data from database according to the name typed. It will start searching soon you started typing.
 router.get('/search_contact/:name', home.searchUser);
